@@ -1,0 +1,136 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f1ebe1;
+  --background-soft: #e8dfd1;
+  --foreground: #1f1b16;
+  --muted: #6b6258;
+  --accent: #c2533a;
+  --accent-soft: #9a3f2c;
+  --secondary: #5a6a4e;
+  --line: rgba(31, 27, 22, 0.14);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-background-soft: var(--background-soft);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-secondary: var(--secondary);
+  --color-line: var(--line);
+  --font-sans: var(--font-sans);
+  --font-display: var(--font-display);
+  --font-mono: var(--font-mono);
+}
+
+html,
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+body {
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+[lang="ar"] body {
+  font-family: var(--font-arabic-sans), "Noto Naskh Arabic", system-ui, sans-serif;
+}
+
+body {
+  background-image:
+    radial-gradient(
+      circle at 12% 8%,
+      rgba(194, 83, 58, 0.18),
+      transparent 45%
+    ),
+    radial-gradient(
+      circle at 88% 78%,
+      rgba(90, 106, 78, 0.18),
+      transparent 50%
+    ),
+    linear-gradient(180deg, #f3ede3 0%, #ece3d4 100%);
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+
+/* Subtle paper grain */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0.18;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)' opacity='0.45'/></svg>");
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--background);
+}
+
+.font-display {
+  font-family: var(--font-display), "Cormorant Garamond", Georgia, serif;
+  font-feature-settings: "liga", "dlig", "swsh";
+}
+
+[lang="ar"] .font-display {
+  font-family: var(--font-arabic-display), "Amiri", "Noto Naskh Arabic", serif;
+  font-feature-settings: "liga";
+  letter-spacing: 0;
+}
+
+[lang="ar"] .font-mono {
+  font-family: var(--font-mono), "Geist Mono", ui-monospace, monospace;
+  /* Keep mono numerals in LTR even within RTL context */
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.rise { animation: rise 1.1s cubic-bezier(0.2, 0.7, 0.2, 1) both; }
+.rise-d1 { animation-delay: 0.1s; }
+.rise-d2 { animation-delay: 0.25s; }
+.rise-d3 { animation-delay: 0.4s; }
+.rise-d4 { animation-delay: 0.55s; }
+.rise-d5 { animation-delay: 0.7s; }
+
+@keyframes drift {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50%      { transform: translate(20px, -30px) scale(1.05); }
+}
+.drift { animation: drift 14s ease-in-out infinite; }
+
+.fancy-link {
+  position: relative;
+  display: inline-block;
+}
+.fancy-link::after {
+  content: "";
+  position: absolute;
+  left: 0; right: 0; bottom: -2px;
+  height: 1px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s cubic-bezier(0.7, 0, 0.2, 1);
+}
+.fancy-link:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.divider {
+  height: 1px;
+  width: 100%;
+  background: linear-gradient(to right, transparent, var(--line), transparent);
+}

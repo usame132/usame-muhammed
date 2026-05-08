@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "title": "Usame Muhammed — Yazılım Mühendisi",
+    "description": "Yazılım Mühendisi · CRM Analisti · Flutter Developer · Çok Dilli İletişim",
+    "switchLabel": "TR"
+  },
+  "nav": {
+    "about": "Hakkında",
+    "services": "Hizmetler",
+    "experience": "Deneyim",
+    "skills": "Yetkinlikler",
+    "contact": "İletişim",
+    "cv": "CV"
+  },
+  "hero": {
+    "tag": "✦ Yazılım · CRM · Çok Dilli İletişim",
+    "tagline": "Yazılım, süreç analizi ve çok dilli iletişimi tek bir disiplinde buluşturan bir mühendis. Mobil uygulama geliştirir, CRM süreçlerini tasarlar, Arapça – Türkçe – İngilizce arası köprü kurar.",
+    "cta": "İletişime Geç",
+    "scroll": "Aşağı Kaydır",
+    "stamp1": "EST. 2018",
+    "stamp2": "KMR · TR"
+  },
+  "section": {
+    "about": "Hakkında",
+    "services": "Çalışma Alanları",
+    "experience": "Deneyim",
+    "skills": "Yetkinlikler",
+    "languages": "Diller",
+    "contact": "İletişim"
+  },
+  "about": {
+    "lead": [
+      "Çok yönlü bir",
+      "",
+      "yazılım profesyoneli",
+      ". Mobil uygulama geliştirme, CRM yapılandırması, iş akışı otomasyonu ve çok dilli iletişim alanlarında çalışır. İş ihtiyacını dinler, doğru aracı seçer ve çözümü uçtan uca götürür."
+    ],
+    "details": {
+      "location": { "label": "Konum", "value": "Kahramanmaraş, Türkiye" },
+      "education": { "label": "Eğitim", "value": "B.Sc. Yazılım Mühendisliği · Fırat Üniversitesi (2018 – 2023)" },
+      "current": { "label": "Şu an", "value": "Hey Teknoloji" }
+    }
+  },
+  "services": {
+    "intro": "Tek bir başlığa sıkışmadan, ihtiyaca göre bu alanlardan birinde veya birkaçında birlikte çalışabiliriz.",
+    "items": [
+      {
+        "kicker": "01",
+        "title": "Yazılım Geliştirme",
+        "body": "Flutter ve Dart ile mobil uygulamalar; mimari desenler, durum yönetimi, Firebase ve API entegrasyonları."
+      },
+      {
+        "kicker": "02",
+        "title": "CRM & Süreç Analizi",
+        "body": "CRM yapılandırması, iş akışı otomasyonu, gereksinim analizi ve süreç optimizasyonu — operasyonu okunabilir ve ölçülebilir hale getirir."
+      },
+      {
+        "kicker": "03",
+        "title": "Uygulama Desteği",
+        "body": "Teknik destek, olay & problem yönetimi, test ve kullanıcı kabul süreçleri — sistemler kesintisiz çalışsın diye."
+      },
+      {
+        "kicker": "04",
+        "title": "Çok Dilli İletişim",
+        "body": "Arapça (anadil), Türkçe (C2) ve İngilizce. Çeviri, yerelleştirme ve çok dilli müşteri iletişiminde köprü."
+      }
+    ]
+  },
+  "experience": {
+    "items": [
+      {
+        "role": "Yazılım Destek Uzmanı & CRM Analisti",
+        "company": "Hey Teknoloji",
+        "location": "Kahramanmaraş",
+        "period": "04.2024 — Şu an",
+        "description": "İş ihtiyaçlarına uygun CRM sistemlerinin yapılandırılması ve optimizasyonu, iş akışı ile otomasyon süreçlerinin yönetimi, uygulama desteği, gereksinim analizi ve raporlama / test süreçlerine katkı."
+      },
+      {
+        "role": "Flutter Geliştirici",
+        "company": "İmza Bilgi Teknolojileri",
+        "location": "Şanlıurfa",
+        "period": "03.2023 — 06.2023",
+        "description": "Flutter ve Dart ile mobil uygulama geliştirme, kod yapısının iyileştirilmesi, Firebase ve API entegrasyonları, çapraz fonksiyonlu ekiplerle test ve hata ayıklama süreçleri."
+      }
+    ]
+  },
+  "skills": {
+    "intro": "Mobil geliştirme tarafından gelen disiplinli mimari yaklaşımı, iş süreçlerinin tasarımı ve teknik destek tecrübesiyle birleştiriyorum.",
+    "categories": {
+      "Engineering": "Mühendislik",
+      "Operations": "Operasyon",
+      "Tooling": "Araçlar"
+    },
+    "labels": {
+      "Dart": "Dart",
+      "Flutter": "Flutter",
+      "Firebase": "Firebase",
+      "Hive": "Hive",
+      "State Management": "State Management",
+      "Architecture Patterns": "Mimari Desenler",
+      "GitHub": "GitHub",
+      "CRM Configuration": "CRM Yapılandırması",
+      "Workflow Automation": "İş Akışı Otomasyonu",
+      "Process Optimization": "Süreç Optimizasyonu",
+      "Incident & Problem Mgmt.": "Olay & Problem Yönetimi",
+      "Requirement Analysis": "Gereksinim Analizi"
+    },
+    "footer": "— bir özet —"
+  },
+  "languages": {
+    "items": [
+      { "name": "Arapça", "level": "Ana dil", "note": "Anadil" },
+      { "name": "Türkçe", "level": "C2", "note": "Tam profesyonel yetkinlik" },
+      { "name": "İngilizce", "level": "Profesyonel", "note": "Profesyonel çalışma yetkinliği" }
+    ]
+  },
+  "contact": {
+    "headlineA": "Bir fikriniz mi var?",
+    "headlineB": "Konuşalım.",
+    "whatsapp": "WhatsApp'tan yaz",
+    "email": "E-posta gönder"
+  },
+  "footer": {
+    "tagline": "Özenle hazırlandı"
+  }
+}

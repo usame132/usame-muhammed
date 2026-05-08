@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "title": "Usame Muhammed — Software Engineer",
+    "description": "Software Engineer · CRM Analyst · Flutter Developer · Multilingual Communication",
+    "switchLabel": "EN"
+  },
+  "nav": {
+    "about": "About",
+    "services": "Services",
+    "experience": "Experience",
+    "skills": "Skills",
+    "contact": "Contact",
+    "cv": "CV"
+  },
+  "hero": {
+    "tag": "✦ Software · CRM · Multilingual",
+    "tagline": "An engineer who unites software, process analysis and multilingual communication in a single discipline. I build mobile apps, design CRM workflows, and bridge Arabic – Turkish – English.",
+    "cta": "Get in touch",
+    "scroll": "Scroll down",
+    "stamp1": "EST. 2018",
+    "stamp2": "KMR · TR"
+  },
+  "section": {
+    "about": "About",
+    "services": "What I do",
+    "experience": "Experience",
+    "skills": "Skills",
+    "languages": "Languages",
+    "contact": "Contact"
+  },
+  "about": {
+    "lead": [
+      "A multidisciplinary",
+      "",
+      "software professional",
+      ". I work across mobile development, CRM configuration, workflow automation and multilingual communication. I listen to the business need, pick the right tool, and carry the solution end to end."
+    ],
+    "details": {
+      "location": { "label": "Location", "value": "Kahramanmaraş, Türkiye" },
+      "education": { "label": "Education", "value": "B.Sc. Software Engineering · Fırat University (2018 – 2023)" },
+      "current": { "label": "Currently", "value": "Hey Teknoloji" }
+    }
+  },
+  "services": {
+    "intro": "Without forcing me into a single label, we can collaborate on one — or several — of these areas based on your need.",
+    "items": [
+      {
+        "kicker": "01",
+        "title": "Software Development",
+        "body": "Mobile apps with Flutter and Dart; architecture patterns, state management, Firebase and API integrations."
+      },
+      {
+        "kicker": "02",
+        "title": "CRM & Process Analysis",
+        "body": "CRM configuration, workflow automation, requirement analysis and process optimization — making operations readable and measurable."
+      },
+      {
+        "kicker": "03",
+        "title": "Application Support",
+        "body": "Technical support, incident & problem management, testing and UAT — keeping systems running without interruption."
+      },
+      {
+        "kicker": "04",
+        "title": "Multilingual Communication",
+        "body": "Arabic (native), Turkish (C2) and English. Translation, localization and multilingual customer communication."
+      }
+    ]
+  },
+  "experience": {
+    "items": [
+      {
+        "role": "Software Support Specialist & CRM Analyst",
+        "company": "Hey Teknoloji",
+        "location": "Kahramanmaraş",
+        "period": "04.2024 — Present",
+        "description": "Configuring and optimizing CRM systems aligned with business needs, managing workflows and automation processes, providing application support, conducting requirement analysis, and supporting reporting, testing and UAT processes."
+      },
+      {
+        "role": "Flutter Developer",
+        "company": "İmza Bilgi Teknolojileri",
+        "location": "Şanlıurfa",
+        "period": "03.2023 — 06.2023",
+        "description": "Developed mobile applications with Flutter and Dart, improved code structure, integrated Firebase services and APIs, and collaborated with cross-functional teams in testing and debugging."
+      }
+    ]
+  },
+  "skills": {
+    "intro": "I combine a disciplined architectural mindset from mobile development with business-process design and hands-on technical support experience.",
+    "categories": {
+      "Engineering": "Engineering",
+      "Operations": "Operations",
+      "Tooling": "Tooling"
+    },
+    "labels": {
+      "Dart": "Dart",
+      "Flutter": "Flutter",
+      "Firebase": "Firebase",
+      "Hive": "Hive",
+      "State Management": "State Management",
+      "Architecture Patterns": "Architecture Patterns",
+      "GitHub": "GitHub",
+      "CRM Configuration": "CRM Configuration",
+      "Workflow Automation": "Workflow Automation",
+      "Process Optimization": "Process Optimization",
+      "Incident & Problem Mgmt.": "Incident & Problem Mgmt.",
+      "Requirement Analysis": "Requirement Analysis"
+    },
+    "footer": "— a compendium —"
+  },
+  "languages": {
+    "items": [
+      { "name": "Arabic", "level": "Native", "note": "Native speaker" },
+      { "name": "Turkish", "level": "C2", "note": "Full professional proficiency" },
+      { "name": "English", "level": "Professional", "note": "Professional working proficiency" }
+    ]
+  },
+  "contact": {
+    "headlineA": "Have an idea?",
+    "headlineB": "Let's talk.",
+    "whatsapp": "Chat on WhatsApp",
+    "email": "Send an email"
+  },
+  "footer": {
+    "tagline": "Crafted with care"
+  }
+}
